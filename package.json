@@ -2,10 +2,10 @@
     "name": "chordsjs",
     "version": "1.0.0",
     "description": "A package for programatically representing scales, notes, and chords",
-    "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "jest --watch"
+        "testt": "jest --watch",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
     },
     "keywords": [
         "music",
